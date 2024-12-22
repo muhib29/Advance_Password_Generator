@@ -2,11 +2,11 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import TicTacToeApp from './TicTacToeApp.jsx'
+import PasswordGeneratorApp from './PasswordGeneratorApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    <TicTacToeApp />
+    <PasswordGeneratorApp />
   </StrictMode>,
 )
